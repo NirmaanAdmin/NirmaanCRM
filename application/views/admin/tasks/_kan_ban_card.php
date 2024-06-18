@@ -53,7 +53,7 @@
             <div class="tw-text-sm col-md-12 text-right">
                 <span class="tw-text-neutral-500" data-toggle="tooltip"
                     title="<?php echo _l('task_single_due_date'); ?>">
-                    <i class="fa fa-calendar-check-o"></i> <?php echo e(_d($task['duedate'])); ?>
+                    <i class="fa fa-calendar-check"></i> <?php echo e(_d($task['duedate'])); ?>
                 </span>
             </div>
         </div>

@@ -64,13 +64,13 @@ foreach ($rResult as $aRow) {
     $options = '';
 
     if(is_admin() || has_permission('staffmanage_orgchart','','edit')){
-        $options .= icon_btn('departments/department/' . $aRow['departmentid'], 'pencil-square-o', 'btn-default', [
+        $options .= icon_btn('departments/department/' . $aRow['departmentid'], 'fa fa-pencil', 'btn-default', [
             'onclick' => 'edit_department(this,' . $aRow['departmentid'] . '); return false', 'data-name' => $aRow['name'], 'data-calendar-id' => $aRow['calendar_id'], 'data-email' => $aRow['email'], 'data-hide-from-client' => $aRow['hidefromclient'], 'data-host' => $aRow['host'], 'data-password' => $ps, 'data-encryption' => $aRow['encryption'], 'data-imap_username' => $aRow['imap_username'], 'data-delete-after-import' => $aRow['delete_after_import'], 'data-parent_id' => $aRow['parent_id'], 'data-manager_id' => $aRow['manager_id'], 'data-toggle' => 'sidebar-right', 'data-target' => '.department-add-edit-modal'
             ]);
     }
 
     if(is_admin() || has_permission('staffmanage_orgchart','','delete')){
-        $options .= icon_btn('hr_profile/delete/' . $aRow['departmentid'], 'remove', 'btn-danger _delete');
+        $options .= icon_btn('hr_profile/delete/' . $aRow['departmentid'], 'fa fa-remove', 'btn-danger _delete');
     }
 
     $row[] = $options;

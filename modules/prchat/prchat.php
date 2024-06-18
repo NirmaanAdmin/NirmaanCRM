@@ -54,7 +54,7 @@ if (staff_can('view', PR_CHAT_MODULE_NAME)) {
         $CI->app_menu->add_sidebar_menu_item('prchat', [
             'name'     => 'Chat',
             'href'     => admin_url('prchat/Prchat_Controller/chat_full_view'),
-            'icon'     => 'fa fa-comments-o',
+            'icon'     => 'fa fa-comments',
             'position' => 6,
         ]);
     }
