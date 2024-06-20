@@ -108,7 +108,7 @@
 - Added test to assert unique() behaviour (#233)
 - Added RUC for the es_PE locale (#244)
 - Test IBAN formats for Latin America (AR/PE/VE) (#260)
-- Added VAT number for en_GB (#255)
+- Added GST Number for en_GB (#255)
 - Added new districts for the ne_NP locale (#258)
 - Fix for U.S. Area Code Generation (#261)
 - Fix in numerify where a better random numeric value is guaranteed (#256)

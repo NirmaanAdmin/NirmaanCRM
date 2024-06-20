@@ -367,7 +367,28 @@
   initDataTable('.table-table_assets7', admin_url+'assets/table_assets/'+'broken');
 
   function new_asset(){
+    
     $('#assets').modal('show');
+    $('#assets input[name="assets_code"]').val('');
+    $('#assets input[name="assets_name"]').val('');
+    $('#assets input[name="date_buy"]').val('');
+    $('#assets input[name="amount"]').val('');
+    $('#assets input[name="unit_price"]').val('');
+    $('#assets input[name="supplier_phone"]').val('');
+    $('#assets input[name="supplier_name"]').val('');
+    $('#assets input[name="supplier_address"]').val('');
+    $('#assets input[name="series"]').val('');
+    $('#assets input[name="warranty_period"]').val('');
+    $('#assets input[name="depreciation"]').val('');
+    $('#assets select[name="unit"]').val('');
+    $('#assets select[name="unit"]').change();
+    $('#assets select[name="asset_group"]').val('');
+    $('#assets select[name="asset_group"]').change();
+    $('#assets select[name="department"]').val('');
+    $('#assets select[name="department"]').change();
+    $('#assets select[name="asset_location"]').val('');
+    $('#assets select[name="asset_location"]').change();
+    $('#assets textarea[name="description"]').val('');
     $('.edit-title').addClass('hide');
     $('.add-title').removeClass('hide');
     $('#additional').html('');

@@ -103,7 +103,7 @@ class Company extends \Faker\Provider\Company
      *
      * @see https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/administratie_bijhouden/btw_nummers_controleren/uw_btw_nummer
      *
-     * @return string VAT Number
+     * @return string GST Number
      */
     public static function vat()
     {
@@ -111,7 +111,7 @@ class Company extends \Faker\Provider\Company
     }
 
     /**
-     * Alias dutch vat number format
+     * Alias dutch GST Number format
      *
      * @return string
      */

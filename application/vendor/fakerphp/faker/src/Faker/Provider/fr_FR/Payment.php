@@ -15,7 +15,7 @@ class Payment extends \Faker\Provider\Payment
      *
      * @param bool $spacedNationalPrefix
      *
-     * @return string VAT Number
+     * @return string GST Number
      */
     public function vat($spacedNationalPrefix = true)
     {

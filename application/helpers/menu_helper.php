@@ -191,15 +191,15 @@ function app_init_admin_sidebar_menu_items()
         ]);
     }
 
-    if ((staff_can('view',  'estimate_request') || staff_can('view_own',  'estimate_request'))) {
-        $CI->app_menu->add_sidebar_menu_item('estimate_request', [
-            'name'     => _l('estimate_request'),
-            'href'     => admin_url('estimate_request'),
-            'position' => 46,
-            'icon'     => 'fa-regular fa-file',
-            'badge'    => [],
-        ]);
-    }
+    // if ((staff_can('view',  'estimate_request') || staff_can('view_own',  'estimate_request'))) {
+    //     $CI->app_menu->add_sidebar_menu_item('estimate_request', [
+    //         'name'     => _l('estimate_request'),
+    //         'href'     => admin_url('estimate_request'),
+    //         'position' => 46,
+    //         'icon'     => 'fa-regular fa-file',
+    //         'badge'    => [],
+    //     ]);
+    // }
 
     if (staff_can('view',  'knowledge_base')) {
         $CI->app_menu->add_sidebar_menu_item('knowledge-base', [
@@ -550,14 +550,14 @@ function app_init_admin_sidebar_menu_items()
         ]);
     }
 
-    if (staff_can('view',  'settings')) {
-        $CI->app_menu->add_setup_menu_item('estimate_request', [
-            'collapse' => true,
-            'name'     => _l('acs_estimate_request'),
-            'position' => 34,
-            'badge'    => [],
-        ]);
-    }
+    // if (staff_can('view',  'settings')) {
+    //     $CI->app_menu->add_setup_menu_item('estimate_request', [
+    //         'collapse' => true,
+    //         'name'     => _l('acs_estimate_request'),
+    //         'position' => 34,
+    //         'badge'    => [],
+    //     ]);
+    // }
 
     $CI->app_menu->add_setup_children_item('estimate_request', [
         'slug'     => 'estimate-request-forms',

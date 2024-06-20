@@ -37,9 +37,9 @@
                     <div class="col-md-6">
                         <label for="acction_from"><?php  echo htmlspecialchars(_l('provider')); ?></label>
                         <select name="acction_from" id="acction_from" class="selectpicker" data-live-search="true" data-width="100%" data-none-selected-text="<?php  echo htmlspecialchars(_l('ticket_settings_none_assigned')); ?>">
-                            <option value=""></option>
+                            <!-- <option value=""></option> -->
                             <?php foreach($staffs as $s) { ?>
-                            <option value="<?php  echo htmlspecialchars($s['staffid']); ?>" <?php if($s['staffid'] == get_staff_user_id()){echo 'selected';} ?><?php  echo htmlspecialchars($s['firstname']).' '.htmlspecialchars($s['lastname']); ?></option>
+                            <option value="<?php  echo htmlspecialchars($s['staffid']); ?>"> <?php if($s['staffid'] == get_staff_user_id()) ?><?php  echo htmlspecialchars($s['firstname']).' '.htmlspecialchars($s['lastname']); ?></option>
                               <?php } ?>
                         </select>
                     </div>

@@ -54,7 +54,7 @@ foreach ($rResult as $aRow) {
 
 
     $row[] = '<div class="checkbox"><input type="checkbox" value="' . $aRow['id'] . '"><label></label></div>                
-                <a class="btn btnIcon" data-toggle="tooltip" title="" data-original-title="'. _l('mailbox_delete').'" onclick="update_field(\''.$group.'\',\'trash\',1,'.$aRow['id'].',\''.$type.'\');"><i class="fa fa-trash-o"></i></a>';
+                <a class="btn btnIcon" data-toggle="tooltip" title="" data-original-title="'. _l('mailbox_delete').'" onclick="update_field(\''.$group.'\',\'trash\',1,'.$aRow['id'].',\''.$type.'\');"><i class="fa fa-trash"></i></a>';
     
 
     $content = '<a href="'.admin_url().'mailbox/outbox/'.$aRow['id'].'">';

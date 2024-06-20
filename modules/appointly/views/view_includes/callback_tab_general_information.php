@@ -24,7 +24,7 @@
     </p>
     <hr>
     <p>
-        <i class="fa fa-star-o fa-fw fa-lg"></i>
+        <i class="fa fa-star fa-fw fa-lg"></i>
         <strong><?= _l('callbacks_m_status'); ?>:</strong><?= ucfirst(fetchCallbackStatusName($callback['status'])); ?>
     </p>
     <hr>

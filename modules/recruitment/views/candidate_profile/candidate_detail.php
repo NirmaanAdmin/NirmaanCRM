@@ -782,11 +782,11 @@ $count_cr = 1;
                   			<p><div class="star-rating">
                   				&nbsp;&nbsp;&nbsp;<?php echo html_entity_decode($count_gr . '.' . $count_cr . '. ' . $cr['criteria_title'] . ' (' . $cr['percent'] . '%)'); ?>
                   				<div class="pull-right font-size-125">
-			                    <span class="fa fa-star-o margin-top-8" data-rating="1" data-id="<?php echo html_entity_decode($cr['evaluation_criteria']); ?>"></span>
-			                    <span class="fa fa-star-o margin-top-8" data-rating="2" data-id="<?php echo html_entity_decode($cr['evaluation_criteria']); ?>"></span>
-			                    <span class="fa fa-star-o margin-top-8" data-rating="3" data-id="<?php echo html_entity_decode($cr['evaluation_criteria']); ?>"></span>
-			                    <span class="fa fa-star-o margin-top-8" data-rating="4" data-id="<?php echo html_entity_decode($cr['evaluation_criteria']); ?>"></span>
-			                    <span class="fa fa-star-o margin-top-8" data-rating="5" data-id="<?php echo html_entity_decode($cr['evaluation_criteria']); ?>"></span>
+			                    <span class="fa fa-star margin-top-8" data-rating="1" data-id="<?php echo html_entity_decode($cr['evaluation_criteria']); ?>"></span>
+			                    <span class="fa fa-star margin-top-8" data-rating="2" data-id="<?php echo html_entity_decode($cr['evaluation_criteria']); ?>"></span>
+			                    <span class="fa fa-star margin-top-8" data-rating="3" data-id="<?php echo html_entity_decode($cr['evaluation_criteria']); ?>"></span>
+			                    <span class="fa fa-star margin-top-8" data-rating="4" data-id="<?php echo html_entity_decode($cr['evaluation_criteria']); ?>"></span>
+			                    <span class="fa fa-star margin-top-8" data-rating="5" data-id="<?php echo html_entity_decode($cr['evaluation_criteria']); ?>"></span>
 			                    <input type="hidden" name="rating[<?php echo html_entity_decode($cr['evaluation_criteria']); ?>]" class="rating-value" value="">
 			                    <input type="hidden" name="percent[<?php echo html_entity_decode($cr['evaluation_criteria']); ?>]" value="<?php echo html_entity_decode($cr['percent']); ?>">
 			                    <input type="hidden" name="group[<?php echo html_entity_decode($cr['evaluation_criteria']); ?>]" value="<?php echo html_entity_decode($gr['id']); ?>">

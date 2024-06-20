@@ -11,7 +11,7 @@ class Company extends \Faker\Provider\Company
     public const VAT_TYPE_HEALTH_AUTHORITY = 'health';
 
     /**
-     * UK VAT number
+     * UK GST Number
      *
      * This method produces numbers that are _reasonably_ representative
      * of those issued by government

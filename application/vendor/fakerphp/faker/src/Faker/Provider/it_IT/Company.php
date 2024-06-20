@@ -67,7 +67,7 @@ class Company extends \Faker\Provider\Company
     }
 
     /**
-     * Italian VAT number (partita IVA)
+     * Italian GST Number (partita IVA)
      *
      * @see https://it.wikipedia.org/wiki/Partita_IVA
      *
@@ -81,7 +81,7 @@ class Company extends \Faker\Provider\Company
     }
 
     /**
-     * Italian VAT number (partita IVA)
+     * Italian GST Number (partita IVA)
      *
      * @return string
      *

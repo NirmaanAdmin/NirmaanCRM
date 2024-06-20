@@ -30,7 +30,7 @@ class Payment extends \Faker\Provider\Payment
      * @see https://en.wikipedia.org/wiki/VAT_identification_number
      * @see https://es.wikipedia.org/wiki/C%C3%B3digo_de_identificaci%C3%B3n_fiscal
      *
-     * @return string VAT Number
+     * @return string GST Number
      */
     public static function vat()
     {

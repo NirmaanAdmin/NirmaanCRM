@@ -279,7 +279,7 @@ class Client_merge_fields extends App_merge_fields
                     ]
                 ],
                 [
-                    'name'      => 'Client Vat Number',
+                    'name'      => 'Client GST Number',
                     'key'       => '{client_vat_number}',
                     'available' => [
                         'client',
